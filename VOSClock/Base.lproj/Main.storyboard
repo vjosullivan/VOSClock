@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F18b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Clock View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ClockViewController" customModule="VOSClock" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,168 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z2h-yB-UA5" userLabel="clockRearPanel">
+                                <rect key="frame" x="10" y="30" width="580" height="560"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clock Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gM-BN-giQ">
+                                        <rect key="frame" x="0.0" y="8" width="580" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="JT0-iB-LMN"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Numerals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQy-lM-WLb">
+                                        <rect key="frame" x="8" y="37" width="564" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="8bw-11-64h"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="zy9-tB-vxc" userLabel="numeralsControl">
+                                        <rect key="frame" x="200" y="57" width="180" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="Gf3-Rl-dVq"/>
+                                            <constraint firstAttribute="width" constant="180" id="fCr-mS-BPe"/>
+                                        </constraints>
+                                        <segments>
+                                            <segment title="None"/>
+                                            <segment title="Roman"/>
+                                            <segment title="Arabic"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.56470588239999997" green="0.83137254900000002" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="1eK-fe-64d" userLabel="ticksControl">
+                                        <rect key="frame" x="8" y="111" width="564" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="31E-iw-Bhw"/>
+                                        </constraints>
+                                        <segments>
+                                            <segment title="None"/>
+                                            <segment title="One"/>
+                                            <segment title="Four"/>
+                                            <segment title="Twelve"/>
+                                            <segment title="Sixty"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.56470588239999997" green="0.83137254900000002" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tick marks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXF-t3-eFb" userLabel="ticks">
+                                        <rect key="frame" x="8" y="91" width="564" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="wiQ-nz-M6P"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="MXF-t3-eFb" secondAttribute="trailing" constant="8" id="0cH-tL-ull"/>
+                                    <constraint firstItem="zy9-tB-vxc" firstAttribute="top" secondItem="yQy-lM-WLb" secondAttribute="bottom" constant="-1" id="1gf-PL-3ze"/>
+                                    <constraint firstAttribute="trailing" secondItem="1eK-fe-64d" secondAttribute="trailing" constant="8" id="GrY-1s-Kh9"/>
+                                    <constraint firstItem="yQy-lM-WLb" firstAttribute="leading" secondItem="z2h-yB-UA5" secondAttribute="leading" constant="8" id="JES-P7-ohb"/>
+                                    <constraint firstAttribute="trailing" secondItem="2gM-BN-giQ" secondAttribute="trailing" id="NTz-8n-gXY"/>
+                                    <constraint firstAttribute="trailing" secondItem="yQy-lM-WLb" secondAttribute="trailing" constant="8" id="dXW-cv-biw"/>
+                                    <constraint firstItem="1eK-fe-64d" firstAttribute="leading" secondItem="z2h-yB-UA5" secondAttribute="leading" constant="8" id="fMr-kF-35v"/>
+                                    <constraint firstItem="2gM-BN-giQ" firstAttribute="leading" secondItem="z2h-yB-UA5" secondAttribute="leading" id="iiV-BA-V90"/>
+                                    <constraint firstItem="2gM-BN-giQ" firstAttribute="top" secondItem="z2h-yB-UA5" secondAttribute="top" constant="8" id="k1W-Tp-gpx"/>
+                                    <constraint firstItem="MXF-t3-eFb" firstAttribute="top" secondItem="zy9-tB-vxc" secondAttribute="bottom" constant="6" id="lBj-2Z-fT4"/>
+                                    <constraint firstItem="MXF-t3-eFb" firstAttribute="leading" secondItem="z2h-yB-UA5" secondAttribute="leading" constant="8" id="pWH-zp-AGM"/>
+                                    <constraint firstItem="zy9-tB-vxc" firstAttribute="centerX" secondItem="z2h-yB-UA5" secondAttribute="centerX" id="swb-I4-ata"/>
+                                    <constraint firstItem="yQy-lM-WLb" firstAttribute="top" secondItem="2gM-BN-giQ" secondAttribute="bottom" constant="8" id="wwP-Y1-GGg"/>
+                                    <constraint firstItem="1eK-fe-64d" firstAttribute="top" secondItem="MXF-t3-eFb" secondAttribute="bottom" constant="-1" id="xn1-1z-bQN"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                                        <color key="value" red="1" green="0.53333333329999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iUQ-ek-coO" userLabel="clockFrontPanel">
+                                <rect key="frame" x="10" y="30" width="580" height="560"/>
+                                <subviews>
+                                    <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Avx-ew-tXa" userLabel="clockFrontView" customClass="ClockView" customModule="VOSClock" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="10" width="560" height="540"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                                                <color key="value" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Avx-ew-tXa" firstAttribute="leading" secondItem="iUQ-ek-coO" secondAttribute="leading" constant="10" id="VQU-rm-yad"/>
+                                    <constraint firstAttribute="trailing" secondItem="Avx-ew-tXa" secondAttribute="trailing" constant="10" id="aMT-EL-zV5"/>
+                                    <constraint firstItem="Avx-ew-tXa" firstAttribute="top" secondItem="iUQ-ek-coO" secondAttribute="top" constant="10" id="emS-ek-z14"/>
+                                    <constraint firstAttribute="bottom" secondItem="Avx-ew-tXa" secondAttribute="bottom" constant="10" id="fqM-7e-hV0"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                                        <color key="value" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDA-fm-bm3" userLabel="clockFlipButton">
+                                <rect key="frame" x="0.0" y="569" width="600" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="8Mf-4F-iKT"/>
+                                </constraints>
+                                <state key="normal" title="Settings"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="z2h-yB-UA5" secondAttribute="bottom" constant="10" id="37d-VX-9qU"/>
+                            <constraint firstItem="iUQ-ek-coO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="3f1-hP-GZ6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IDA-fm-bm3" secondAttribute="bottom" constant="10" id="3zW-Y6-dk2"/>
+                            <constraint firstItem="z2h-yB-UA5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="LKU-Iu-zUA"/>
+                            <constraint firstAttribute="trailing" secondItem="z2h-yB-UA5" secondAttribute="trailing" constant="10" id="Pzh-BA-T7x"/>
+                            <constraint firstItem="z2h-yB-UA5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="RAn-VR-can"/>
+                            <constraint firstAttribute="trailing" secondItem="iUQ-ek-coO" secondAttribute="trailing" constant="10" id="SQS-rq-bYL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iUQ-ek-coO" secondAttribute="bottom" constant="10" id="WA1-6A-KLO"/>
+                            <constraint firstItem="IDA-fm-bm3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dCD-Lo-Awb"/>
+                            <constraint firstItem="iUQ-ek-coO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="gh9-hz-Eey"/>
+                            <constraint firstAttribute="trailing" secondItem="IDA-fm-bm3" secondAttribute="trailing" id="yJ6-l7-S8r"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="clockFlipButton" destination="IDA-fm-bm3" id="Psj-rp-1Fv"/>
+                        <outlet property="clockFrontPanel" destination="iUQ-ek-coO" id="Sbb-RW-cqM"/>
+                        <outlet property="clockFrontView" destination="Avx-ew-tXa" id="XSO-JK-hZG"/>
+                        <outlet property="clockRearPanel" destination="z2h-yB-UA5" id="EFg-x0-s2z"/>
+                        <outlet property="numeralsSetting" destination="zy9-tB-vxc" id="gUT-Co-4yR"/>
+                        <outlet property="ticksSetting" destination="1eK-fe-64d" id="7Uv-uc-8Ge"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="216" y="488"/>
         </scene>
     </scenes>
 </document>

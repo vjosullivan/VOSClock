@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import VOSClock
 
 class VOSClockTests: XCTestCase {
     

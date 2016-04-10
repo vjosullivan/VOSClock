@@ -13,6 +13,38 @@
 		F1DD29511CBA4B6900D4C732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DD29501CBA4B6900D4C732 /* Assets.xcassets */; };
 		F1DD29541CBA4B6900D4C732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DD29521CBA4B6900D4C732 /* LaunchScreen.storyboard */; };
 		F1DD295F1CBA4B6A00D4C732 /* VOSClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD295E1CBA4B6A00D4C732 /* VOSClockTests.swift */; };
+		F1DD296B1CBA4BE900D4C732 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD296A1CBA4BE900D4C732 /* ClockViewController.swift */; };
+		F1DD296C1CBA4BE900D4C732 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD296A1CBA4BE900D4C732 /* ClockViewController.swift */; };
+		F1DD29731CBA4C1A00D4C732 /* ClockFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD296F1CBA4C1A00D4C732 /* ClockFace.swift */; };
+		F1DD29741CBA4C1A00D4C732 /* ClockFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD296F1CBA4C1A00D4C732 /* ClockFace.swift */; };
+		F1DD29751CBA4C1A00D4C732 /* HourHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29701CBA4C1A00D4C732 /* HourHand.swift */; };
+		F1DD29761CBA4C1A00D4C732 /* HourHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29701CBA4C1A00D4C732 /* HourHand.swift */; };
+		F1DD29771CBA4C1A00D4C732 /* MinuteHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29711CBA4C1A00D4C732 /* MinuteHand.swift */; };
+		F1DD29781CBA4C1A00D4C732 /* MinuteHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29711CBA4C1A00D4C732 /* MinuteHand.swift */; };
+		F1DD29791CBA4C1A00D4C732 /* SecondHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29721CBA4C1A00D4C732 /* SecondHand.swift */; };
+		F1DD297A1CBA4C1A00D4C732 /* SecondHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29721CBA4C1A00D4C732 /* SecondHand.swift */; };
+		F1DD297C1CBA4C2300D4C732 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD297B1CBA4C2300D4C732 /* ClockView.swift */; };
+		F1DD297D1CBA4C2300D4C732 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD297B1CBA4C2300D4C732 /* ClockView.swift */; };
+		F1DD29871CBA50D100D4C732 /* InstrumentFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29801CBA50D100D4C732 /* InstrumentFace.swift */; };
+		F1DD29881CBA50D100D4C732 /* InstrumentFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29801CBA50D100D4C732 /* InstrumentFace.swift */; };
+		F1DD29891CBA50D100D4C732 /* LargeTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29811CBA50D100D4C732 /* LargeTick.swift */; };
+		F1DD298A1CBA50D100D4C732 /* LargeTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29811CBA50D100D4C732 /* LargeTick.swift */; };
+		F1DD298B1CBA50D100D4C732 /* MediumTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29821CBA50D100D4C732 /* MediumTick.swift */; };
+		F1DD298C1CBA50D100D4C732 /* MediumTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29821CBA50D100D4C732 /* MediumTick.swift */; };
+		F1DD298D1CBA50D100D4C732 /* SmallTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29831CBA50D100D4C732 /* SmallTick.swift */; };
+		F1DD298E1CBA50D100D4C732 /* SmallTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29831CBA50D100D4C732 /* SmallTick.swift */; };
+		F1DD298F1CBA50D100D4C732 /* Tick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29841CBA50D100D4C732 /* Tick.swift */; };
+		F1DD29901CBA50D100D4C732 /* Tick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29841CBA50D100D4C732 /* Tick.swift */; };
+		F1DD29911CBA50D100D4C732 /* TickZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29851CBA50D100D4C732 /* TickZero.swift */; };
+		F1DD29921CBA50D100D4C732 /* TickZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29851CBA50D100D4C732 /* TickZero.swift */; };
+		F1DD29961CBA510400D4C732 /* Hub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29931CBA510400D4C732 /* Hub.swift */; };
+		F1DD29971CBA510400D4C732 /* Hub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29931CBA510400D4C732 /* Hub.swift */; };
+		F1DD29981CBA510400D4C732 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29941CBA510400D4C732 /* Hand.swift */; };
+		F1DD29991CBA510400D4C732 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29941CBA510400D4C732 /* Hand.swift */; };
+		F1DD299C1CBA519000D4C732 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD299B1CBA519000D4C732 /* AppColor.swift */; };
+		F1DD299D1CBA519000D4C732 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD299B1CBA519000D4C732 /* AppColor.swift */; };
+		F1DD299F1CBA520800D4C732 /* CircleWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD299E1CBA520800D4C732 /* CircleWriter.swift */; };
+		F1DD29A01CBA520800D4C732 /* CircleWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD299E1CBA520800D4C732 /* CircleWriter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +64,25 @@
 		F1DD294E1CBA4B6900D4C732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1DD29501CBA4B6900D4C732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1DD29531CBA4B6900D4C732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F1DD29551CBA4B6900D4C732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1DD295A1CBA4B6900D4C732 /* VOSClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VOSClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DD295E1CBA4B6A00D4C732 /* VOSClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VOSClockTests.swift; sourceTree = "<group>"; };
 		F1DD29601CBA4B6A00D4C732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DD296A1CBA4BE900D4C732 /* ClockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
+		F1DD296F1CBA4C1A00D4C732 /* ClockFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockFace.swift; sourceTree = "<group>"; };
+		F1DD29701CBA4C1A00D4C732 /* HourHand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourHand.swift; sourceTree = "<group>"; };
+		F1DD29711CBA4C1A00D4C732 /* MinuteHand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinuteHand.swift; sourceTree = "<group>"; };
+		F1DD29721CBA4C1A00D4C732 /* SecondHand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondHand.swift; sourceTree = "<group>"; };
+		F1DD297B1CBA4C2300D4C732 /* ClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		F1DD29801CBA50D100D4C732 /* InstrumentFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentFace.swift; sourceTree = "<group>"; };
+		F1DD29811CBA50D100D4C732 /* LargeTick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeTick.swift; sourceTree = "<group>"; };
+		F1DD29821CBA50D100D4C732 /* MediumTick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumTick.swift; sourceTree = "<group>"; };
+		F1DD29831CBA50D100D4C732 /* SmallTick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallTick.swift; sourceTree = "<group>"; };
+		F1DD29841CBA50D100D4C732 /* Tick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tick.swift; sourceTree = "<group>"; };
+		F1DD29851CBA50D100D4C732 /* TickZero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickZero.swift; sourceTree = "<group>"; };
+		F1DD29931CBA510400D4C732 /* Hub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hub.swift; sourceTree = "<group>"; };
+		F1DD29941CBA510400D4C732 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		F1DD299B1CBA519000D4C732 /* AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		F1DD299E1CBA520800D4C732 /* CircleWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleWriter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +125,13 @@
 			isa = PBXGroup;
 			children = (
 				F1DD29491CBA4B6900D4C732 /* AppDelegate.swift */,
-				F1DD294B1CBA4B6900D4C732 /* ViewController.swift */,
 				F1DD294D1CBA4B6900D4C732 /* Main.storyboard */,
-				F1DD29501CBA4B6900D4C732 /* Assets.xcassets */,
 				F1DD29521CBA4B6900D4C732 /* LaunchScreen.storyboard */,
-				F1DD29551CBA4B6900D4C732 /* Info.plist */,
+				F1DD294B1CBA4B6900D4C732 /* ViewController.swift */,
+				F1DD297F1CBA4DDD00D4C732 /* instrument */,
+				F1DD297E1CBA4C9200D4C732 /* clock */,
+				F1DD299A1CBA517100D4C732 /* utilities */,
+				F1DD29501CBA4B6900D4C732 /* Assets.xcassets */,
 			);
 			path = VOSClock;
 			sourceTree = "<group>";
@@ -90,10 +139,81 @@
 		F1DD295D1CBA4B6A00D4C732 /* VOSClockTests */ = {
 			isa = PBXGroup;
 			children = (
+				F1DD299E1CBA520800D4C732 /* CircleWriter.swift */,
 				F1DD295E1CBA4B6A00D4C732 /* VOSClockTests.swift */,
 				F1DD29601CBA4B6A00D4C732 /* Info.plist */,
 			);
 			path = VOSClockTests;
+			sourceTree = "<group>";
+		};
+		F1DD296D1CBA4BF100D4C732 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD296F1CBA4C1A00D4C732 /* ClockFace.swift */,
+				F1DD29701CBA4C1A00D4C732 /* HourHand.swift */,
+				F1DD29711CBA4C1A00D4C732 /* MinuteHand.swift */,
+				F1DD29721CBA4C1A00D4C732 /* SecondHand.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F1DD296E1CBA4BF900D4C732 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD297B1CBA4C2300D4C732 /* ClockView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F1DD297E1CBA4C9200D4C732 /* clock */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD296A1CBA4BE900D4C732 /* ClockViewController.swift */,
+				F1DD296D1CBA4BF100D4C732 /* model */,
+				F1DD296E1CBA4BF900D4C732 /* view */,
+			);
+			path = clock;
+			sourceTree = "<group>";
+		};
+		F1DD297F1CBA4DDD00D4C732 /* instrument */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD29951CBA510400D4C732 /* view */,
+				F1DD29861CBA50D100D4C732 /* model */,
+			);
+			path = instrument;
+			sourceTree = "<group>";
+		};
+		F1DD29861CBA50D100D4C732 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD29801CBA50D100D4C732 /* InstrumentFace.swift */,
+				F1DD29811CBA50D100D4C732 /* LargeTick.swift */,
+				F1DD29821CBA50D100D4C732 /* MediumTick.swift */,
+				F1DD29831CBA50D100D4C732 /* SmallTick.swift */,
+				F1DD29841CBA50D100D4C732 /* Tick.swift */,
+				F1DD29851CBA50D100D4C732 /* TickZero.swift */,
+			);
+			name = model;
+			path = ../../../VOSForecast/VOSForecast/instrument/model;
+			sourceTree = "<group>";
+		};
+		F1DD29951CBA510400D4C732 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD29931CBA510400D4C732 /* Hub.swift */,
+				F1DD29941CBA510400D4C732 /* Hand.swift */,
+			);
+			name = view;
+			path = ../../../VOSForecast/VOSForecast/instrument/view;
+			sourceTree = "<group>";
+		};
+		F1DD299A1CBA517100D4C732 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD299B1CBA519000D4C732 /* AppColor.swift */,
+			);
+			path = utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +317,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DD29981CBA510400D4C732 /* Hand.swift in Sources */,
+				F1DD29791CBA4C1A00D4C732 /* SecondHand.swift in Sources */,
+				F1DD298B1CBA50D100D4C732 /* MediumTick.swift in Sources */,
+				F1DD29911CBA50D100D4C732 /* TickZero.swift in Sources */,
+				F1DD297C1CBA4C2300D4C732 /* ClockView.swift in Sources */,
+				F1DD296B1CBA4BE900D4C732 /* ClockViewController.swift in Sources */,
+				F1DD299C1CBA519000D4C732 /* AppColor.swift in Sources */,
+				F1DD29961CBA510400D4C732 /* Hub.swift in Sources */,
+				F1DD29871CBA50D100D4C732 /* InstrumentFace.swift in Sources */,
+				F1DD29891CBA50D100D4C732 /* LargeTick.swift in Sources */,
+				F1DD299F1CBA520800D4C732 /* CircleWriter.swift in Sources */,
+				F1DD29751CBA4C1A00D4C732 /* HourHand.swift in Sources */,
+				F1DD298F1CBA50D100D4C732 /* Tick.swift in Sources */,
+				F1DD29771CBA4C1A00D4C732 /* MinuteHand.swift in Sources */,
+				F1DD29731CBA4C1A00D4C732 /* ClockFace.swift in Sources */,
 				F1DD294C1CBA4B6900D4C732 /* ViewController.swift in Sources */,
+				F1DD298D1CBA50D100D4C732 /* SmallTick.swift in Sources */,
 				F1DD294A1CBA4B6900D4C732 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +342,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DD29901CBA50D100D4C732 /* Tick.swift in Sources */,
+				F1DD297A1CBA4C1A00D4C732 /* SecondHand.swift in Sources */,
 				F1DD295F1CBA4B6A00D4C732 /* VOSClockTests.swift in Sources */,
+				F1DD29781CBA4C1A00D4C732 /* MinuteHand.swift in Sources */,
+				F1DD29741CBA4C1A00D4C732 /* ClockFace.swift in Sources */,
+				F1DD29921CBA50D100D4C732 /* TickZero.swift in Sources */,
+				F1DD297D1CBA4C2300D4C732 /* ClockView.swift in Sources */,
+				F1DD29971CBA510400D4C732 /* Hub.swift in Sources */,
+				F1DD29761CBA4C1A00D4C732 /* HourHand.swift in Sources */,
+				F1DD299D1CBA519000D4C732 /* AppColor.swift in Sources */,
+				F1DD296C1CBA4BE900D4C732 /* ClockViewController.swift in Sources */,
+				F1DD29A01CBA520800D4C732 /* CircleWriter.swift in Sources */,
+				F1DD298E1CBA50D100D4C732 /* SmallTick.swift in Sources */,
+				F1DD29991CBA510400D4C732 /* Hand.swift in Sources */,
+				F1DD29881CBA50D100D4C732 /* InstrumentFace.swift in Sources */,
+				F1DD298A1CBA50D100D4C732 /* LargeTick.swift in Sources */,
+				F1DD298C1CBA50D100D4C732 /* MediumTick.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VOSClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vjosullivan.VOSClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VOSClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vjosullivan.VOSClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
