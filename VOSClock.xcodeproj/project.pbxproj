@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1DD294A1CBA4B6900D4C732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD29491CBA4B6900D4C732 /* AppDelegate.swift */; };
+		F1DD294C1CBA4B6900D4C732 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD294B1CBA4B6900D4C732 /* ViewController.swift */; };
+		F1DD294F1CBA4B6900D4C732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DD294D1CBA4B6900D4C732 /* Main.storyboard */; };
+		F1DD29511CBA4B6900D4C732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DD29501CBA4B6900D4C732 /* Assets.xcassets */; };
+		F1DD29541CBA4B6900D4C732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DD29521CBA4B6900D4C732 /* LaunchScreen.storyboard */; };
+		F1DD295F1CBA4B6A00D4C732 /* VOSClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD295E1CBA4B6A00D4C732 /* VOSClockTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1DD295B1CBA4B6A00D4C732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1DD293E1CBA4B6900D4C732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1DD29451CBA4B6900D4C732;
+			remoteInfo = VOSClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1DD29461CBA4B6900D4C732 /* VOSClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOSClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DD29491CBA4B6900D4C732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1DD294B1CBA4B6900D4C732 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1DD294E1CBA4B6900D4C732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1DD29501CBA4B6900D4C732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1DD29531CBA4B6900D4C732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1DD29551CBA4B6900D4C732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DD295A1CBA4B6900D4C732 /* VOSClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VOSClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DD295E1CBA4B6A00D4C732 /* VOSClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VOSClockTests.swift; sourceTree = "<group>"; };
+		F1DD29601CBA4B6A00D4C732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1DD29431CBA4B6900D4C732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD29571CBA4B6900D4C732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1DD293D1CBA4B6900D4C732 = {
+			isa = PBXGroup;
+			children = (
+				F1DD29481CBA4B6900D4C732 /* VOSClock */,
+				F1DD295D1CBA4B6A00D4C732 /* VOSClockTests */,
+				F1DD29471CBA4B6900D4C732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1DD29471CBA4B6900D4C732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD29461CBA4B6900D4C732 /* VOSClock.app */,
+				F1DD295A1CBA4B6900D4C732 /* VOSClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1DD29481CBA4B6900D4C732 /* VOSClock */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD29491CBA4B6900D4C732 /* AppDelegate.swift */,
+				F1DD294B1CBA4B6900D4C732 /* ViewController.swift */,
+				F1DD294D1CBA4B6900D4C732 /* Main.storyboard */,
+				F1DD29501CBA4B6900D4C732 /* Assets.xcassets */,
+				F1DD29521CBA4B6900D4C732 /* LaunchScreen.storyboard */,
+				F1DD29551CBA4B6900D4C732 /* Info.plist */,
+			);
+			path = VOSClock;
+			sourceTree = "<group>";
+		};
+		F1DD295D1CBA4B6A00D4C732 /* VOSClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD295E1CBA4B6A00D4C732 /* VOSClockTests.swift */,
+				F1DD29601CBA4B6A00D4C732 /* Info.plist */,
+			);
+			path = VOSClockTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1DD29451CBA4B6900D4C732 /* VOSClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DD29631CBA4B6A00D4C732 /* Build configuration list for PBXNativeTarget "VOSClock" */;
+			buildPhases = (
+				F1DD29421CBA4B6900D4C732 /* Sources */,
+				F1DD29431CBA4B6900D4C732 /* Frameworks */,
+				F1DD29441CBA4B6900D4C732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VOSClock;
+			productName = VOSClock;
+			productReference = F1DD29461CBA4B6900D4C732 /* VOSClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1DD29591CBA4B6900D4C732 /* VOSClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DD29661CBA4B6A00D4C732 /* Build configuration list for PBXNativeTarget "VOSClockTests" */;
+			buildPhases = (
+				F1DD29561CBA4B6900D4C732 /* Sources */,
+				F1DD29571CBA4B6900D4C732 /* Frameworks */,
+				F1DD29581CBA4B6900D4C732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1DD295C1CBA4B6A00D4C732 /* PBXTargetDependency */,
+			);
+			name = VOSClockTests;
+			productName = VOSClockTests;
+			productReference = F1DD295A1CBA4B6900D4C732 /* VOSClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1DD293E1CBA4B6900D4C732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vincent O'Sullivan";
+				TargetAttributes = {
+					F1DD29451CBA4B6900D4C732 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F1DD29591CBA4B6900D4C732 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F1DD29451CBA4B6900D4C732;
+					};
+				};
+			};
+			buildConfigurationList = F1DD29411CBA4B6900D4C732 /* Build configuration list for PBXProject "VOSClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1DD293D1CBA4B6900D4C732;
+			productRefGroup = F1DD29471CBA4B6900D4C732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1DD29451CBA4B6900D4C732 /* VOSClock */,
+				F1DD29591CBA4B6900D4C732 /* VOSClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1DD29441CBA4B6900D4C732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD29541CBA4B6900D4C732 /* LaunchScreen.storyboard in Resources */,
+				F1DD29511CBA4B6900D4C732 /* Assets.xcassets in Resources */,
+				F1DD294F1CBA4B6900D4C732 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD29581CBA4B6900D4C732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1DD29421CBA4B6900D4C732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD294C1CBA4B6900D4C732 /* ViewController.swift in Sources */,
+				F1DD294A1CBA4B6900D4C732 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD29561CBA4B6900D4C732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD295F1CBA4B6A00D4C732 /* VOSClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1DD295C1CBA4B6A00D4C732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1DD29451CBA4B6900D4C732 /* VOSClock */;
+			targetProxy = F1DD295B1CBA4B6A00D4C732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1DD294D1CBA4B6900D4C732 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DD294E1CBA4B6900D4C732 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1DD29521CBA4B6900D4C732 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DD29531CBA4B6900D4C732 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1DD29611CBA4B6A00D4C732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1DD29621CBA4B6A00D4C732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1DD29641CBA4B6A00D4C732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VOSClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vjosullivan.VOSClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1DD29651CBA4B6A00D4C732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VOSClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vjosullivan.VOSClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1DD29671CBA4B6A00D4C732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VOSClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vjosullivan.VOSClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VOSClock.app/VOSClock";
+			};
+			name = Debug;
+		};
+		F1DD29681CBA4B6A00D4C732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VOSClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vjosullivan.VOSClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VOSClock.app/VOSClock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1DD29411CBA4B6900D4C732 /* Build configuration list for PBXProject "VOSClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD29611CBA4B6A00D4C732 /* Debug */,
+				F1DD29621CBA4B6A00D4C732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DD29631CBA4B6A00D4C732 /* Build configuration list for PBXNativeTarget "VOSClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD29641CBA4B6A00D4C732 /* Debug */,
+				F1DD29651CBA4B6A00D4C732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1DD29661CBA4B6A00D4C732 /* Build configuration list for PBXNativeTarget "VOSClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD29671CBA4B6A00D4C732 /* Debug */,
+				F1DD29681CBA4B6A00D4C732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1DD293E1CBA4B6900D4C732 /* Project object */;
+}
